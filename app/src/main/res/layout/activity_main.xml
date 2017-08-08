@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34363A"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thunder.jordanchicote.thunder.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="122dp"
+        android:background="#FDD835"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/buttonFace"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonCreateAC"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_alignLeft="@+id/buttonLogin"
+        android:layout_alignStart="@+id/buttonLogin"
+        android:layout_alignTop="@+id/buttonLogin"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/iconelogin"
+        android:text="CRIE SUA CONTA"
+        android:textColor="#FFFFFFFF"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/buttonFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonGoogle"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_toLeftOf="@+id/buttonGoogle"
+        android:layout_toStartOf="@+id/buttonGoogle"
+        android:background="#00ffffff"
+        android:padding="13dp"
+        android:src="@drawable/ic_facebook_box_white_24dp" />
+
+    <ImageButton
+        android:id="@+id/buttonGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonCreateAC"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonCreateAC"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:background="#00ffffff"
+        android:padding="13dp"
+        android:src="@drawable/ic_google_plus_box_white_24dp" />
+
+    <ImageView
+        android:id="@+id/thunderLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="117dp"
+        android:src="@drawable/thunderlogonew" />
+
+    <EditText
+        android:id="@+id/userLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_above="@+id/buttonLogin"
+        android:layout_alignEnd="@+id/buttonLogin"
+        android:layout_alignLeft="@+id/buttonLogin"
+        android:layout_alignRight="@+id/buttonLogin"
+        android:layout_alignStart="@+id/buttonLogin"
+        android:layout_marginBottom="83dp"
+        android:background="#af616161"
+        android:drawableRight="@drawable/ic_account_white_18dp"
+        android:ems="30"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/userSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_above="@+id/buttonLogin"
+        android:layout_alignEnd="@+id/buttonCreateAC"
+        android:layout_alignLeft="@+id/userLogin"
+        android:layout_alignRight="@+id/buttonCreateAC"
+        android:layout_alignStart="@+id/userLogin"
+        android:layout_marginBottom="37dp"
+        android:background="#af616161"
+        android:drawableRight="@drawable/ic_lock_white_18dp"
+        android:ems="30"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+</RelativeLayout>

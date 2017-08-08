@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34363A"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thunder.jordanchicote.thunder.CrieSuaConta">
+
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arrowleft" />
+
+    <EditText
+        android:id="@+id/personPassword"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_alignLeft="@+id/confirmEmail"
+        android:layout_alignStart="@+id/confirmEmail"
+        android:layout_below="@+id/confirmEmail"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/backButton"
+        android:layout_toRightOf="@+id/backButton"
+        android:background="#af616161"
+        android:drawableRight="@drawable/ic_lock_white_18dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/personName"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/crieSuaContaText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="#af616161"
+        android:drawableRight="@drawable/ic_account_white_18dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/firstPersonEmail"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_alignLeft="@+id/personName"
+        android:layout_alignStart="@+id/personName"
+        android:layout_below="@+id/personName"
+        android:layout_marginTop="10dp"
+        android:background="#af616161"
+        android:drawableRight="@drawable/ic_email_white_18dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/crieSuaContaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="CRIE SUA CONTA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/confirmEmail"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_alignLeft="@+id/firstPersonEmail"
+        android:layout_alignStart="@+id/firstPersonEmail"
+        android:layout_below="@+id/firstPersonEmail"
+        android:layout_marginTop="11dp"
+        android:background="#af616161"
+        android:drawableRight="@drawable/ic_email_white_18dp"
+        android:ems="10"
+        android:hint="Confirme seu E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/buttonConfirmaCadastro"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/personPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="#FDD835"
+        android:text="CRIAR CONTA"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

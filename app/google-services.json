@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "977392093585",
+    "firebase_url": "https://thunder-e6b2e.firebaseio.com",
+    "project_id": "thunder-e6b2e",
+    "storage_bucket": "thunder-e6b2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977392093585:android:5f03c7e94b187702",
+        "android_client_info": {
+          "package_name": "com.thunder.jordanchicote.thunder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977392093585-j64ooengvi77mdnman52pn2phobj98hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thunder.jordanchicote.thunder",
+            "certificate_hash": "153084200867ff46bccb5ec9fe46416ea46c24bb"
+          }
+        },
+        {
+          "client_id": "977392093585-bsjedecfp8887dpkrtmbi0n9gi0usmvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA61OGSwhjl4UM22MIsVqxznKy8WJdH_io"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977392093585-bsjedecfp8887dpkrtmbi0n9gi0usmvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

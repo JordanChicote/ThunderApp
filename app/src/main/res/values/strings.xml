@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thunder</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="regristration_error">Erro ao Cadastrar</string>
+    <string name="registering_user">caraio</string>
+    <string name="successfully_registred">foi</string>
+</resources>
